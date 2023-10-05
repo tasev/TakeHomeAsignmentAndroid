@@ -25,7 +25,5 @@ class MainActivity : AppCompatActivity() {
             this@MainActivity.navController = navController
         }
         setContentView(binding.root)
-
-
     }
 }

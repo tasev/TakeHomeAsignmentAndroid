@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/stocks_nav"
+    app:startDestination="@id/stocksFragmentScreen">
+
+    <fragment
+        android:id="@+id/stocksFragmentScreen"
+        android:name="com.nativeteams.stocksscreen.StocksFragment"
+        android:label="fragment_detail_screen"
+        tools:layout="@layout/fragment_stocks" />
+</navigation>

@@ -41,4 +41,6 @@ dependencies {
     implementation navigation.values()
     implementation stocksScreen.values()
     implementation project(':common')
+
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.2.0-alpha01"
 }
